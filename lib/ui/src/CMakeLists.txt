@@ -1,0 +1,14 @@
+SET(SOURCES ui_Available.c
+    ui_busy.c
+    ui_menu.c
+    ui_timer.c
+    ui_Vcode.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_available_png.c
+    ui_img_busy_png.c
+    ui_img_timer_menu_png.c
+    ui_img_enter_code_png.c)
+
+add_library(ui ${SOURCES})
